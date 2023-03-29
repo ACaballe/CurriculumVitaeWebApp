@@ -1,0 +1,11 @@
+<div class="root_allTemplates">
+    <h1>All Templates</h1>
+    <small> Number of templates: {{ numTemplates }} </small>
+    <div class="allTempaltes container text-center">
+        <div class="row row-cols-auto">
+            <div class="col" *ngFor="let template of templates">
+                <app-select-template [template]="template"></app-select-template>
+            </div>       
+        </div>
+      </div>
+</div>
