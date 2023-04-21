@@ -1,6 +1,61 @@
+body{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529 !important;
+    text-align: left;
+}
+a{
+    text-decoration: none;
+}
 .noPadding{
     padding: 0;
 }
 .noMargin{
     margin: 0;
+}
+.shadow{
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+}
+
+/* FORM CSS */
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+input[type=number] {
+    -moz-appearance: textfield;
+}
+.cvTitle_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+.cvTitle{
+    width: 50%;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.inputTitle{
+    font-weight: 550;
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+}
+.inputTitle:focus{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    box-shadow: none;
+    transition: none;
+}
+.groupTitle{
+    width: 40%;
+    font-size: 1.1rem;
+}
+.form-label{
+    text-align: start !important;
 }

@@ -1,12 +1,18 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
-// Components
-import { HomeComponent } from './components/home/home.component';
-
 const routes: Routes = [
-  {path: 'home', component: HomeComponent},
-  {path: '**', redirectTo: 'home', pathMatch: 'full' }
+  {
+    path: '',
+    loadChildren: () => import('./components/home/home.module').then(m => m.HomeModule)
+  },
+  {
+    path: 'template/royal',
+    loadChildren: () => import('./templates/royal/royal.module').then(m => m.RoyalModule)
+  },
+  {
+    path: '**', redirectTo: '', pathMatch: 'full'
+  },
 ];
 
 @NgModule({

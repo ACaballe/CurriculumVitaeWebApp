@@ -11,102 +11,12 @@ export class ServiceTemplatesService {
       id: 0,
       title: "New Template",
       url: "",
-      img: "../../assets/img/cv_CaballéArnau.png"
+      img: "../../assets/img/new_template.png"
     },
     {
       id: 1,
-      title: "Template 1",
-      url: "../templates/template1",
-      img: "../../assets/img/cv_CaballéArnau.png"
-    },
-    {
-      id: 1,
-      title: "Template 1",
-      url: "../templates/template1",
-      img: "../../assets/img/cv_CaballéArnau.png"
-    },
-    {
-      id: 1,
-      title: "Template 1",
-      url: "../templates/template1",
-      img: "../../assets/img/cv_CaballéArnau.png"
-    },
-    {
-      id: 1,
-      title: "Template 1",
-      url: "../templates/template1",
-      img: "../../assets/img/cv_CaballéArnau.png"
-    },
-    {
-      id: 1,
-      title: "Template 1",
-      url: "../templates/template1",
-      img: "../../assets/img/cv_CaballéArnau.png"
-    },
-    {
-      id: 1,
-      title: "Template 1",
-      url: "../templates/template1",
-      img: "../../assets/img/cv_CaballéArnau.png"
-    },
-    {
-      id: 1,
-      title: "Template 1",
-      url: "../templates/template1",
-      img: "../../assets/img/cv_CaballéArnau.png"
-    },
-    {
-      id: 1,
-      title: "Template 1",
-      url: "../templates/template1",
-      img: "../../assets/img/cv_CaballéArnau.png"
-    },
-    {
-      id: 1,
-      title: "Template 1",
-      url: "../templates/template1",
-      img: "../../assets/img/cv_CaballéArnau.png"
-    },
-    {
-      id: 1,
-      title: "Template 1",
-      url: "../templates/template1",
-      img: "../../assets/img/cv_CaballéArnau.png"
-    },
-    {
-      id: 1,
-      title: "Template 1",
-      url: "../templates/template1",
-      img: "../../assets/img/cv_CaballéArnau.png"
-    },
-    {
-      id: 1,
-      title: "Template 1",
-      url: "../templates/template1",
-      img: "../../assets/img/cv_CaballéArnau.png"
-    },
-    {
-      id: 1,
-      title: "Template 1",
-      url: "../templates/template1",
-      img: "../../assets/img/cv_CaballéArnau.png"
-    },
-    {
-      id: 1,
-      title: "Template 1",
-      url: "../templates/template1",
-      img: "../../assets/img/cv_CaballéArnau.png"
-    },
-    {
-      id: 1,
-      title: "Template 1",
-      url: "../templates/template1",
-      img: "../../assets/img/cv_CaballéArnau.png"
-    },
-    {
-      id: 1,
-      title: "Template 1",
-      url: "../templates/template1",
+      title: "Royal",
+      url: "../template/royal",
       img: "../../assets/img/cv_CaballéArnau.png"
     }
   ];

@@ -1,0 +1,8 @@
+.allTempaltes{
+    margin: 2rem !important;
+    max-width: 1400px !important;
+}
+.allTemplates_header{
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+}
